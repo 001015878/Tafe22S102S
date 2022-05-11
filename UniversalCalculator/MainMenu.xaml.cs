@@ -5,7 +5,6 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
-using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -36,11 +35,6 @@ namespace Calculator
 		private void currencyCalcButton_Click(object sender, RoutedEventArgs e)
 		{
 			this.Frame.Navigate(typeof(Calculator.currencyConversion));
-		}
-
-		private  void tripCalcButton_Click(object sender, RoutedEventArgs e)
-		{
-			tripCalcTextBlock.Text = "...";
 		}
 	}
 	
